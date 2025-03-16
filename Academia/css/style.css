@@ -16,7 +16,7 @@ header {
     box-shadow: 6px 6px 76px rgba(0, 0, 0, 0.151);
     font-size: 1.9rem;
     font-family: "Montserrat", sans-serif;
-    font-weight: normal;
+    font-weight: 600;
     padding-bottom: 20px;
 }
 
@@ -42,10 +42,19 @@ div > img {
     text-transform: uppercase;
 }
 
-.login{
-    
-    border-radius: 20px;
-    padding: 3px;
+.login button{
+    background-color: #f78406;
+    border-radius: 8px;
+    padding: 2px;
+    padding: 1px 4px 1px 4px;
+    align-items: center;
+}
+
+.login button a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 600;
 }
 
 .icone {
