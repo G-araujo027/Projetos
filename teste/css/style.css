@@ -67,3 +67,16 @@ header .btn-login button{
 header .btn-login button:hover{
     box-shadow: 0px 0px 8px #f7830696;
 }
+
+/* Topo do site*/
+
+section .site{
+    padding: 40px 4%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3%;
+}
